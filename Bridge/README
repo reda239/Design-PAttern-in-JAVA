@@ -1,0 +1,7 @@
+Sec Security System is a security and electronic company which produces and assembles products for cars. It delivers any car electronic or security system you want, from air bags to GPS tracking system, reverse parking system etc. Big car companies use its products in their cars. The company uses a well defined object oriented approach to keep track of their products using software which is developed and maintained by them only. They get the car, produce the system for it and assemble it into the car.
+-->Use of Bridge Pattern
+You should use the Bridge Pattern when:
+• You want to avoid a permanent binding between an abstraction and its implementation. This might be the case, for example, when the implementation must be selected or switched at run-time.
+• Both the abstractions and their implementations should be extensible by sub-classing. In this case, the Bridge pattern lets you combine the different abstractions and implementations and extend them independently.
+• Changes in the implementation of an abstraction should have no impact on clients; that is, their code should not have to be recompiled.
+• Youwanttoshareanimplementationamongmultipleobjects(perhapsusingreferencecounting),andthisfactshouldbehidden from the client.
